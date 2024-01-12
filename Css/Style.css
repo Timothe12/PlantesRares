@@ -1,0 +1,450 @@
+body {
+	margin: 0;
+	font-family: lato;
+	color: #223f69;
+}
+
+nav {
+	background: url("../Images/10.png") top ;
+	height: 650px;
+}
+
+footer {
+	background-color: #163767;
+	height: 110px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+footer p {
+	margin-top: 40px;
+}
+
+footer button {
+	margin-top: 20px;
+	text-decoration: none;
+	color: white;
+	background-color: #163767;
+	border: none;
+}
+
+footer button:hover {
+	color: #89b9ff;
+	cursor: pointer;
+}
+
+.divNav {
+	background-color: rgba(238, 245, 227, 0.8);
+	height: 90px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.divNav h4 {
+	font-size: 150%;
+	margin-left: 300px;
+}
+
+.navButton {
+	color: #223f69;
+	display: flex;
+	align-items: center;
+	margin-left: 250px;
+}
+
+.navButton2 {
+	display: flex;
+	align-items: center;
+	margin-right: 270px;
+}
+
+.navButton2 button {
+	color: white;
+	background-color: #223f69;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 120%;
+}
+
+.navButton2 button:hover {
+	background-color: #3d597e;
+	cursor: pointer;
+}
+
+.navButton button {
+	margin: 0 30px 0 30px;
+	text-decoration: none;
+	color: #223f69;
+	background-color: rgba(238, 245, 227, 0);
+	border: none;
+	font-size: 120%;
+}
+
+.navButton button:hover {
+	color: #9ca5d3;
+	cursor: pointer;
+}
+
+.btnReseaux {
+	display: flex;
+	align-items: center;
+	margin-right: 30px;
+}
+
+.btnReseaux img {
+	margin: 0 20px 0 20px;
+}
+
+.divTitle {
+	margin-top: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.divTitle h1 {
+	font-size: 400%;
+	margin-bottom: 0;
+}
+
+.divTitle p {
+	padding: 0 350px 0 350px;
+	text-align: center;
+	font-size: 120%;
+	font-weight: bold;
+}
+
+.btnTi {
+	display: flex;
+}
+
+.btnTitle button {
+	color: white;
+	background-color: #223f69;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 120%;
+}
+
+.btnTitle button:hover {
+	background-color: #3d597e;
+	cursor: pointer;
+}
+
+.btnTitle2 button {
+	color: white;
+	background-color: #7fd89b;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 120%;
+	margin-left: 15px;
+}
+
+.btnTitle2 button:hover {
+	background-color: #4dd576;
+	cursor: pointer;
+}
+
+.btnTitle3 button {
+	color: white;
+	background-color: #7fd89b;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	font-size: 120%;
+}
+
+.btnTitle3 button:hover {
+	background-color: #4dd576;
+	cursor: pointer;
+}
+
+.containerStore {
+	background-color: #eef5e3;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerStore  h2 {
+	margin-top: 0;
+	font-size: 300%;
+	margin-bottom: 20px;
+}
+
+.containerStore p {
+	margin-top: 0;
+	margin-bottom: 60px;
+}
+
+.paddingStore {
+	padding: 0 20px 0 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.paddingStore p {
+	padding-right: 30px;
+}
+
+.itemStore {
+	display: flex;
+	flex-direction: row;}
+
+.containerDeal {
+	background-color: #ffffff;
+	height: 1500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.divTitleDeal {
+	text-align: center;
+}
+
+.divTitleDeal h1 {
+	font-size: 300%;
+	margin-bottom: 0;
+}
+
+.itemDeal {
+	background-color: #eef5e3;
+	height: 400px;
+	width: 1200px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+}
+
+.marginItemDeal {
+	margin-left: 60px;
+	margin-top: 60px;
+}
+
+.containerUnivers {
+	background-color: #eef5e3;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.UniversFlex {
+	background-color: white;
+	height: 600px;
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.UniversFlex h2 {
+	font-size: 300%;
+	margin-bottom: 0;
+}
+
+.UniversFlex img {
+	margin-left: 80px;
+}
+
+.containerFlowers {
+	background-color: #ffffff;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.itemFlowers {
+	background-color: #eef5e3;
+	padding: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.marginFlowers {
+	margin: 0 40px 0 40px;
+}
+
+.itemFlowers p {
+	text-align: center;
+}
+
+.containerNew {
+	background-color: #eef5e3;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerNew h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 300%;
+}
+
+.divTitleNew p {
+	margin-top: 40px;
+}
+
+.containerNew p {
+	margin-top: 0;
+}
+
+.itemFLexNew {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.itemNew {
+	background-color: white;
+	height: 450px;
+	width: 300px;
+}
+
+.itemNew button {
+	margin-top: 50px;
+}
+
+.marginNew {
+	margin: 0 50px 0 50px;
+}
+
+.paddingNew {
+	padding: 10px 10px 10px 30px;
+}
+
+.containerTemoign {
+	background-color: #ffffff;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.containerTemoign h1 {
+	margin-bottom: 0;
+	font-size: 300%;
+}
+
+.itemTemoign {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexTemoign {
+	display: flex;
+	flex-direction: row;
+}
+
+.flexTemoign h4 {
+	margin-bottom: 0px;
+}
+
+.flexTemoign img {
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.flexTemoignCol {
+	display: flex;
+	flex-direction: column;
+}
+
+.paddingTemoign {
+	padding:  0 20px 20px 20px;
+}
+
+.containerPhoto {
+	background-color: #eef5e3;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.containerPhoto h1 {
+	margin-bottom: 10px;
+	font-size: 300%;
+}
+
+.itemPhoto {
+	display: flex;
+	flex-direction: row;
+}
+
+.containerContact {
+	background-color: #ffffff;
+	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.flexRowContact {
+	display: flex;
+	flex-direction: row;
+}
+
+.itemContact {
+	background-color: #eef5e3;
+	height: 170px;
+	width: 650px;
+	display: flex;
+	flex-direction: row;
+}
+
+.containerContact h1 {
+	margin-bottom: 20px;
+	font-size: 300%;
+}
+
+.itemContact img {
+	margin-top: 60px;
+	margin-left: 50px;
+	margin-right: 40px;
+}
+
+.marginTopContact {
+	margin-top: 20px;
+}
+
+.flexColCont1 {
+	display: flex;
+	flex-direction: column;
+}
+
+.flexColCont1 h3 {
+	margin: 60px 0 0 0;
+}
+
+.flexColCont1 p {
+	margin: 5px 0 0 0;
+}
+
+.mapContact {
+	margin-left: 100px;
+}
